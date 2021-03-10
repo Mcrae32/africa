@@ -236,6 +236,10 @@ a:active {
     padding: 0;
 }
 
+#navbar.navbar-collapse.collapse {
+    float: none;
+}
+
 .panel {
 	margin-bottom: 0px;
 	background-color: inherit;
