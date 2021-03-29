@@ -388,12 +388,13 @@ header.scroll-down {
 
 .header-top {
     font-size: 12pt;
-    padding: 44px 5px 2px;
+    padding: 44px 2% 2px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    float: right;
 }
 
 .sticky .header-top {
@@ -444,11 +445,11 @@ header.scroll-down {
 .lang {
     text-align: right;
     text-transform: uppercase;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 .lang a {
     color: #fdedd4;
-    padding: 0 10px;
+    padding: 0 3px;
 }
 .lang a.active,
 .lang a:focus,
@@ -4633,7 +4634,7 @@ box-shadow: 0px 2px 3px 0px rgb(231, 221, 212);
 
 @media (max-width: 1360px) {
     .header-top {
-        padding: 42px 20px 10px;
+        padding: 42px 2% 10px;
     }
     .header-bottom {
         position: relative;
@@ -4713,6 +4714,10 @@ box-shadow: 0px 2px 3px 0px rgb(231, 221, 212);
     .logo-btn.navbar-nav {
         width: 84px;
         margin: 10px;
+    }
+
+    .lang {
+        margin-left: 20px;
     }
 
     .header-bottom .navbar-nav li a.active::before {
@@ -4800,6 +4805,8 @@ box-shadow: 0px 2px 3px 0px rgb(231, 221, 212);
 
     .header-top {
         padding-top: 32px;
+        padding-left: 1%;
+        padding-right: 1%;
     }
 
     .decoration-award {
