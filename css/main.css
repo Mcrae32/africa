@@ -455,7 +455,7 @@ header.scroll-down {
 .lang a:focus,
 .lang a:active,
 .lang a:hover {
-    color: #323232;
+    color: #a1a1a1;
     font-weight: bold;
 }
 
