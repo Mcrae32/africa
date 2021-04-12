@@ -4618,7 +4618,12 @@ box-shadow: 0px 2px 3px 0px rgb(231, 221, 212);
 }
 /*end flip*/
 
-
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    outline: none;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+}
 
 @media (max-width: 1622px) {
     .last-categories-filter h5:after {
@@ -5046,7 +5051,7 @@ box-shadow: 0px 2px 3px 0px rgb(231, 221, 212);
     }
 
     .logo-wrap {
-        margin: 0 auto;
+        margin: 3px auto 0;
         float: none;
     }
 
@@ -5161,7 +5166,7 @@ box-shadow: 0px 2px 3px 0px rgb(231, 221, 212);
 
     .lang {
         text-align: center;
-        margin: 21px auto;
+        margin: 20px auto;
     }
 
     .lang a {
