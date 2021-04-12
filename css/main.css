@@ -2802,7 +2802,7 @@ footer .signature p.title-block::before {
 	padding: 2% 4%;
 	margin: 35px 0 35px;
 	position: relative;
-	text-align: center;
+	text-align: left;
 	transition: all 0.5s ease 0s;
 	-webkit-box-shadow: 0px 2px 3px 0px rgba(232, 225, 214, 0.75);
     -moz-box-shadow:    0px 2px 3px 0px rgba(232, 225, 214, 0.75);
