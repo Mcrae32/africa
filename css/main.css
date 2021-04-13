@@ -1123,6 +1123,10 @@ ul.navbar-right li:last-child .dropdown-menu {
     animation: starss_hover 1s infinite ease-in-out;
 }
 
+.form-check-label .form-check-input {
+    margin-right: 5px;
+}
+
 /*-----------------------*/
 @keyframes starss_hover {
   0% {transform:rotate(0deg)}
@@ -2540,6 +2544,8 @@ footer .signature p.title-block::before {
 
 .position-ref img {
     display: inline-block;
+    width: 100%;
+    height: auto;
 }
 
 .reviews-refrigerations .modal-content {
