@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Iceberry - ice cream production</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<meta name="keywords" content="ice cream, natural ice cream, delicious ice cream, iceberry, iceberry ice cream" />
+	<meta name="description" content="Iceberry company website" />
+	<meta name="apple-mobile-web-app-title" content="Whole Iceberry Ice Cream Assortment">
+	<meta property="og:site_name" content="The largest Russian producer of natural ice cream">
+	<link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!--Owl-carousel-->
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+	<!--Slick slider-->
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<!-- Подключаем Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--Mobile menu-->
+	<link rel="stylesheet" href="slideout/test.css">
+	<link rel="stylesheet" href="slideout/index.css">
+	<!--base-->
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/wow.min.js"></script>
+	<script>new WOW().init();</script>
+	<script type="text/javascript" src="js/respond.min.js"></script>
+</head>
+<body>
+	<!--loader-->
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+	<!--mobile menu slideout-->
+	<nav id="menu" class="menu">
+		<section class="menu-section">
+			<div class="header-menu">
+				<div class="logo-header-menu">
+					<a href="index.html"><img class="img-responsive" src="images/logo-header2.png" alt="iceberry"></a>
+				</div>
+				<div id="close" class="close-menu">
+					<a class="js-slideout-toggle-menu"><img class="img-responsive" src="images/close-icon.jpg" alt="iceberry"></a>
+				</div>
+				<div class="search-menu">
+					<a id="open"><img class="img-responsive" src="images/search-icon.jpg" alt="iceberry"></a>
+					<form class="formSearch" action="/search/" data-action-ajax="/search/ajax/" method="get">
+						<input class="searchInput" type="text" name="text" value="" placeholder="search">
+					</form>
+				</div>
+			</div>
+			<ul class="menu-section-list">	
+				<li class=""><a class="home-icon" href="index.html"><i class="fa fa-home"></i>Main</a></li>				
+				<li class="active"><a class="catalog-icon" href="assortiment.html"><i class="fa fa-book"></i>Catalog</a></li>
+				<li class=""><a class="company-icon" href="about.html"><i class="fa fa-users"></i>About the company</a></li>
+				<li class=""><a class="club-icon" href="refrigeration.html"><i class="fa fa-snowflake-o"></i>Branding</a></li>
+				<li class=""><a class="who-icon" href="contacts.html"><i class="fa fa-address-card"></i>Contacts</a></li>
+			</ul>
+		</section>
+	</nav>
+	<!--mobile menu slideout end-->
+    <div id="panel" class="panel">
+    	<header>
+	    	<div class="navbar navbar-main if-s">
+				<!--mobile header-bottom-->
+				<div class="header-bottom hidden-md hidden-lg">
+					<!--panel mobile menu-->
+					<div style="width: 30%; float:left;">						
+						<a class="button js-slideout-toggle">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>						
+						<!--<button class="btn-hamburger js-slideout-toggle"></button>-->
+					</div>
+					<div style="width: 40%; float:left;">
+						<div class="logo-wrap">
+							<a href="/" class="logo-btn navbar-nav">
+								<img src="images/logo-header.png" class="img-responsive" alt="Iceberry company">
+								<img src="images/logo-header.png" class="img-responsive" alt="Iceberry company">
+							</a>
+						</div>					
+					</div>
+					<div style="width: 30%; float:left;">
+						<div class="lang">
+							<a href="/">FR</a>
+						</div>
+					</div>
+					<!--panel mobile menu end-->
+				</div>
+				<!--mobile header-bottom end-->
+	
+				<!--desctop header-bottom-->
+		    	<div class="header-bottom hidden-xs hidden-sm">	
+					<div class="container">
+						<div class="row">
+							<div class="logo-wrap col-xs-7 col-sm-3 col-md-2 col-lg-2">
+								<a href="index.html" class="logo-btn navbar-nav">
+									<img src="images/logo-header.png" class="img-responsive" alt="Iceberry Company">
+									<img src="images/logo-header.png" class="img-responsive" alt="Iceberry Company">
+								</a>
+							</div>
+							<div class="hidden-xs hidden-sm col-md-6 col-lg-6">
+								<nav class="collapse navbar-collapse" id="navbar" data-hover="dropdown"
+									data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+									<ul class="nav navbar-nav navbar-right">
+										<li><a class="" href="index.html">Main</a></li>
+										<li><a class="active" href="assortiment.html">Catalog</a></li>
+										<li class="dropdown">
+											<a href="about.html" class="dropdown-toggle">About the company<i class="fa fa-angle-down"></i></a>
+											<ul class="dropdown-menu">
+												<li class="dropdown">
+													<a href="about.html">
+														About the company
+													</a>
+												</li>
+												<li class="dropdown">
+													<a href="production.html">
+														Production
+													</a>
+												</li>
+											</ul>
+										</li>									
+										<li><a href="refrigeration.html">Branding</a></li>
+										<li><a href="contacts.html">Contacts</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="hidden-xs hidden-sm col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
+								<div class="button call_order">
+									<a style="display: inline-block" href="/" data-toggle="modal" data-target="#myModal5">Call<br>order</a>
+									<!--Modal-->
+									<div class="modal fade" id="myModal5">
+										<div class="modal-dialog">
+											<div class="filter-content">
+												<div class="hidden-xs hidden-sm">
+													<div class="col-md-12">
+														<div class="modal-header">
+															<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&#215;</button>
+															<h5>&nbsp;&nbsp;&nbsp;Request a call back</h5>
+														</div>
+														<div class="row">
+															<div class="col-md-12">																
+																<form class="form-horizontal">
+																	<div class="form-group">
+																		<div class="col-sm-4 control-label">
+																			<label for="name" class="control-label">Name</label>
+																		</div>
+																		<div class="col-sm-6">
+																			<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+																		</div>
+																	</div>
+																	<div class="form-group">
+																		<div class="col-sm-4 control-label">
+																			<label for="phone" class="control-label">Phone</label>
+																		</div>
+																		<div class="col-sm-6">
+																			<input type="text" class="form-control" id="phone" placeholder="Phone">
+																		</div>
+																	</div>
+																	<div class="form-group">
+																		<div class="form-check">
+																			<label class="form-check-label">
+																				<input type="checkbox" class="form-check-input" required="">Consent to the processing of personal data
+																			</label>
+																		</div>
+																	</div>
+																	<div class="form-group">
+																		<div class="col-sm-offset-4 col-sm-6 button-wrap">
+																			<div class="read-more news">
+																				<a href="/where-buy/" tabindex="0">Send message</a>
+																			</div>
+																		</div>
+																	</div>
+																</form>																
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="header-top">
+									<div class="lang">
+										<a class="active" href="/?lang=ru">en</a>
+										<span style="color: #a1a1a1;">|</span>
+										<a href="/?lang=en">fr</a>
+									</div>
+									<div class="header-social">
+										<div class="social-network">
+											<a href="https://ok.ru/group/53816670421144" target="_blank" data-toggle="modal">
+												<i class="fa fa-odnoklassniki"></i>
+											</a>
+										</div>										
+									
+										<div class="social-network">
+											<a href="https://vk.com/club48220269" target="_blank">
+												<i class="fa fa-vk"></i>
+											</a>
+										</div>
+									
+										<div class="social-network">
+											<a href="https://www.facebook.com/TDIceBerry" target="_blank">
+												<i class="fa fa-facebook"></i>
+											</a>
+										</div>
+									
+										<div class="social-network">
+											<a href="https://www.instagram.com/iceberry_icecream/" target="_blank">
+												<i class="fa fa-instagram"></i>
+											</a>
+										</div>
+									
+										<div class="clearfix"></div>
+									</div>									
+								</div>
+							</div>
+						</div>
+					</div>				
+					<div class="header-menu-field"></div>
+				</div>
+				<!--desctop header-bottom end-->
+	    	</div>
+	    </header>
+		
+		<!--Шапка с breadcrumbs-->
+		<div id="toppage" class="heading-wrapper page" data-spy="scroll" class="page-heading-1 parallax"
+			style="background-image: url(images/assortiment_bg.jpg);">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<h1>Catalog</h1>
+						<div class="breadcrumb hidden-xs hidden-sm">
+							<a href="index.html">Main</a><span class="v-line">&nbsp;/&nbsp;</span><a href="assortiment.html">Catalog</a><span class="v-line">&nbsp;/&nbsp;</span>OT DEDA MOROZA VANILLA WAFER CUP
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--content-->
+		<main>
+			<!--breadcrumbs mobile-->
+			<div class="container-fluid hidden-md hidden-lg">
+				<div>
+					<div class="breadcrumbs-mobile">
+						<a href="index.html">Main</a><span class="v-line">&nbsp;>&nbsp;</span><a href="assortiment.html">Catalog</a><span class="v-line">&nbsp;>&nbsp;</span>OT DEDA MOROZA VANILLA WAFER CUP
+					</div>
+				</div>
+			</div>
+			<!--filter catalog-->
+			<section class="filter-catalog">
+				<!--Desctop filter-->
+				<div class="container hidden-xs hidden-sm">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row filter-catalog-sections">
+								<div class="row">
+									<div class="col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
+										<a href="/" data-toggle="modal" data-target="#myModal1">
+											<div class="section-filter"
+												style="background-image: url('images/logo_filter/bg-section-filter3.jpg'); background-size: cover;">
+												<h4>Ice cream brands</h4>
+											</div>
+										</a>
+										<div class="modal fade" id="myModal1">
+											<div class="modal-dialog">
+												<div class="filter-content">
+													<div class="hidden-xs hidden-sm">
+														<div class="col-md-12">
+															<div class="modal-header">
+																<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+																<h5>&nbsp;&nbsp;&nbsp;Ice cream brands</h5>
+															</div>
+															<div class="row">
+																<div class="col-md-12">
+																	<a class="active" href="assortiment.html#catalog">
+																		<div class="punkt logo">
+																			<img src="images/logo_filter/position-catalog_32.png" class="img-responsive"
+																				alt="От Деда Мороза">
+																		</div>
+																	</a>
+																	<a href="assortiment.html#catalog">
+																		<div class="punkt logo">
+																			<img src="images/logo_filter/position-catalog_31.png" class="img-responsive"
+																				alt="Delice">
+																		</div>
+																	</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-3 col-lg-3">
+										<a href="assortiment.html#catalog">
+											<div class="section-filter"
+												style="background-image: url('images/bg-section-filter2.jpg'); background-size: cover;">
+												<h4>Portion ice cream</h4>
+											</div>
+										</a>										
+										<div class="modal fade" id="myModal2">
+											<div class="modal-dialog">
+												<div class="filter-content">
+													<div class="hidden-xs hidden-sm">
+														<div class="col-md-12">
+															<div class="modal-header">
+																<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+																<h5>Portion ice cream</h5>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-xs-12" style="text-align: center;">
+									<div class="read-more news" style="margin: 15px auto 0;">
+										<a href="assortiment.html#catalog" tabindex="0">Show all</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Mobile filter-->
+				<div class="container hidden-md hidden-lg">
+					<div class="row">			
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a  href="javscript://" class="spoiler-title">Ice cream brands<span class="button-spoiler"></span></a>
+								<div class="spoiler-content" style="display: none;">
+									<div class="row">
+										<div class="col-xs-6 col-sm-3">
+											<a href="assortiment.html#catalog">
+												<div class="punkt-mobile logo-filter">
+													<img src="images/logo_filter/position-catalog_32.png" class="img-responsive" alt="От Деда Мороза">
+												</div>
+											</a>
+										</div>
+										<div class="col-xs-6 col-sm-3">
+											<a href="assortiment.html#catalog">
+												<div class="punkt-mobile logo-filter">
+													<img src="images/logo_filter/position-catalog_31.png" class="img-responsive" alt="Delice">
+												</div>
+											</a>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12">
+							<div class="spoiler-block">
+								<a href="assortiment.html#catalog" class="spoiler-title">Portion ice cream</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--reviews position-->
+			<span id="catalog"></span>
+			<section class="reviews-position-wrap">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="reviews-position">
+								<div class="row">
+									<div class="col-md-5">
+										<div class="reviews-position-logo">
+											<img src="images/logo_filter/position-catalog_32.png" class="img-responsive" alt="Вологодский пломбир">
+										</div>
+										<div class="reviews-position-image">
+											<img src="images/catalig/hit_1.png" class="img-responsive" alt="Вологодский пломбир с ароматом лесного ореха и фундуком и вареным сгущенным молоком лоток">
+										</div>
+									</div>
+									<div class="col-md-7">
+										<div class="reviews-position-text">
+											<h2>OT DEDA MOROZA VANILLA WAFER CUP</h2>
+											<p>The most tasteful and delicate vanilla ice cream in a wafer cup</p>
+											<p><b>Fat</b></p>
+											<p>Fat mass index 10%</p>
+											<br>
+											<p><b>Portion nutrition value (70 g)</b></p>
+											<p><b>Protein</b> – 2.7 g</p>
+											<p><b>Fat</b> – 6.6 g </p>
+											<p><b>Carbohydrates</b> – 16.5 g (including sucrose – 8.8 g)</p>
+											<p><b>Energy</b> – 130.9 kkal</p>
+											<br>
+											<p><b>Shelf life</b></p>
+											<p>Shelf life of unopened packing from the date of production of 18 months at the temperature of not more than -18ºС</p>
+											<p><b>Weight (grams):</b> 70</p>															</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--positions wrap-->
+			<section class="positions-wrap">
+				<div class="container">
+					<h3>Note</h3>
+					<div class="row">
+						<div class="positions-slider">
+							<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+								<a href="position.html#catalog">
+									<div>
+										<div>
+											<div class="positions-block">
+												<div class="newItem"><img src=""></div>
+												<img class="img-responsive" src="images/catalig/hit_1.png" alt="OT DEDA MOROZA VANILLA WAFER CUP">
+												<h4>OT DEDA MOROZA VANILLA WAFER CUP</h4>
+												<p><b>70 g</b></p>								
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+								<a href="position.html#catalog">
+									<div>
+										<div>
+											<div class="positions-block">
+												<div class="newItem"><img src=""></div>
+												<img class="img-responsive" src="images/catalig/ball_2.png" alt="Vologda chocolate ice cream with pieces of chocolate tray">
+												<h4>Vologda chocolate ice cream with pieces of chocolate tray</h4>
+												<p><b>1300 g</b></p>								
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+								<a href="position.html#catalog">
+									<div>
+										<div>
+											<div class="positions-block">
+												<div class="newItem"><img src=""></div>
+												<img class="img-responsive" src="images/catalig/hit_1.png" alt="OT DEDA MOROZA VANILLA WAFER CUP">
+												<h4>OT DEDA MOROZA VANILLA WAFER CUP</h4>
+												<p><b>70 g</b></p>								
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+								<a href="position.html#catalog">
+									<div>
+										<div>
+											<div class="positions-block">
+												<div class="newItem"><img src=""></div>
+												<img class="img-responsive" src="images/catalig/ball_2.png" alt="Vologda chocolate ice cream with pieces of chocolate tray">
+												<h4>Vologda chocolate ice cream with pieces of chocolate tray</h4>
+												<p><b>1300 g</b></p>								
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+								<a href="position.html#catalog">
+									<div>
+										<div>
+											<div class="positions-block">
+												<div class="newItem"><img src=""></div>
+												<img class="img-responsive" src="images/catalig/hit_1.png" alt="OT DEDA MOROZA VANILLA WAFER CUP">
+												<h4>OT DEDA MOROZA VANILLA WAFER CUP</h4>
+												<p><b>70 g</b></p>								
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+								<a href="position.html#catalog">
+									<div>
+										<div>
+											<div class="positions-block">
+												<div class="newItem"><img src=""></div>
+												<img class="img-responsive" src="images/catalig/ball_2.png" alt="Vologda chocolate ice cream with pieces of chocolate tray">
+												<h4>Vologda chocolate ice cream with pieces of chocolate tray</h4>
+												<p><b>1300 g</b></p>								
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-4">
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="title-block">Office</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-11 col-xs-offset-0">
+								<p>11/2970, Moscow, Luzhnetskaya embankment, 2/4, p. 8 (territory of AMNTK Soyuz)</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-3">
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="title-block">Telephone</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-11 col-xs-offset-0">
+								<p class="phone"><a href="tel:+74999689542">+7 (499) 968-95-42</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-3">
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="title-block">Sales department telephone</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-11 col-xs-offset-0">
+								<p class="phone"><a href="tel:+74999689542">+7 (499) 968-95-42</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-2">
+						<div class="row">
+							<div class="col-xs-12">
+								<p class="title-block">we are in social networks</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-10 col-xs-offset-0">
+								<div class="header-social">
+									<div class="social-network">
+										<a href="https://ok.ru/group/53816670421144" target="_blank">
+											<i class="fa fa-odnoklassniki"></i>
+										</a>
+									</div>
+								
+									<div class="social-network">
+										<a href="https://vk.com/club48220269" target="_blank">
+											<i class="fa fa-vk"></i>
+										</a>
+									</div>
+								
+									<div class="social-network">
+										<a href="https://www.facebook.com/TDIceBerry" target="_blank">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</div>
+								
+									<div class="social-network">
+										<a href="https://www.instagram.com/iceberry_icecream/" target="_blank">
+											<i class="fa fa-instagram"></i>
+										</a>
+									</div>
+								
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row hidden-md hidden-lg">
+					<div style="text-align: center" class="col-xs-12">
+						<a href="/"><div class="social-network ok"></div></a>
+						<a href="/"><div class="social-network vk"></div></a>					
+						<a href="/"><div class="social-network fb"></div></a>
+						<a href="/"><div class="social-network ins"></div></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="signature">
+							<p class="title-block"><span>© 2010–2021&nbsp;</span> LLC TD Iceberry</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>	
+	</div>
+	
+	<a id="top_b" href="#toppage"></a>
+	<!-- Подключаем jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Подключаем Bootstrap JS -->    
+	<script src="js/bootstrap.min.js"></script>
+	<!--Slick slider-->
+	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<!--mobile menu slideout-->
+	<script src="slideout/slideout.js"></script>	
+	<!--feedback owl slider Owl-carousel-->
+	<script src="owlcarousel/owl.carousel.min.js"></script>
+	<!--my scripts-->
+	<script src="js/scripts.js"></script>
+</body>
+</html>
