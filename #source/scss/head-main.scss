@@ -455,9 +455,66 @@ h4.slid-heading {
 .slick-next:focus:before {
     opacity: 0;
 }
-//button-style end-----------------------
+//hits_slider
+.hits-slider {
+    .hits-slider__row {
+        display: flex;
 
-//branding-------------------------------
+        .hits-slider__description {
+            text-align: left;
+            p {
+                padding-left: 30px;
+
+                @media (max-width: 991px) {
+                    padding-left: 15%;
+                }
+                @media (max-width: 767px) {
+                    text-align: center;
+                    padding-left: 0;
+                }
+            }
+        }
+
+        .hits-slider__column {
+            width: 50%;
+
+            .img-slid-wrap {
+                display: flex;
+                justify-content: center;
+                height: auto;
+                padding: 0;
+                position: relative;
+                overflow: hidden;
+                img {
+                    position: static;
+                    left: 0;
+                }
+                .circle {
+                    position: absolute;
+                    left: calc(50% - 170px);
+                    top: calc(50% - 170px);
+                    // width: 90%;
+                    // height: auto;
+                    object-fit: contain;
+                    z-index: -1;
+
+                    @media (max-width: 370px) {
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                    }
+                }
+            }
+            @media (max-width: 991px) {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 991px) {
+            flex-direction: column;
+        }
+    }
+}
 
 //page-styles
 h3 {
