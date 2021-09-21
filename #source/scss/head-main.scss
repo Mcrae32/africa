@@ -1,4 +1,4 @@
-@import "nullstyle.scss";
+@import "_nullstyle.scss";
 
 %tpl-text-field {
     background-color: rgba(17, 7, 5, 0.41);
@@ -11,6 +11,88 @@
     background-color: rgba(254, 246, 235, 0.8);
     box-shadow: -10px 0 0 rgba(254, 246, 235, 1), 10px 0 0 rgba(254, 246, 235, 1);
     padding: 5px 0;
+}
+//header
+.navbar-main {
+    @media (min-width: 992px) and (max-width: 1100px) {
+        background: #323232;
+        border-radius: 0%;
+    }
+}
+
+.sticky .button.call_order {
+    display: none;
+}
+
+// .header-bottom.hidden-sm {
+//     @media (min-width: 768px) and (max-width: 1100px) {
+//         display: none !important;
+//     }
+// }
+.header-bottom.hidden-md {
+    @media (min-width: 992px) and (max-width: 1100px) {
+        //display: block !important;
+
+        a.button {
+            margin: 30px auto 17px;
+            display: inline-block;
+            cursor: pointer;
+
+            span.icon-bar {
+                display: block;
+                width: 18px;
+                height: 3px;
+                margin: 0 0 2px 15px;
+                background-color: #fdedd4;
+            }
+        }
+
+        .logo-wrap {
+            margin: 3px auto 0;
+            float: none;
+        }
+
+        .lang {
+            text-align: center;
+            margin: 30px auto;
+        }
+    }
+}
+
+.header-social {
+    @media (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.logo-wrap {
+    text-align: center;
+    @media (max-width: 1199px) {
+        & .logo-btn.navbar-nav {
+            width: 70px;
+        }
+        a.logo-btn.navbar-nav {
+            margin: 0 auto;
+        }
+    }
+}
+
+// .nav.navbar-nav.navbar-right {
+//     padding: 0 0 0 15px;
+// }
+
+.sticky #navbar .navbar-nav > li > a {
+    @media (max-width: 1199px) {
+        //padding: 30px 3px 0;
+        font-size: 0.7em;
+    }
+}
+
+.button.call_order a {
+    @media (max-width: 1199px) {
+        font-size: 0.8em;
+        padding: 6px 15px 4px;
+    }
 }
 
 //head-slider
@@ -75,6 +157,10 @@ h4.slid-heading {
 .button_slider {
     text-align: center;
     margin: 5% auto 100px;
+    min-height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 //advantages
@@ -488,6 +574,12 @@ h4.slid-heading {
                 img {
                     position: static;
                     left: 0;
+                }
+                img.img-responsive {
+                    width: 100%;
+                    height: auto;
+                    align-self: center;
+                    align-items: center;
                 }
                 .circle {
                     position: absolute;
