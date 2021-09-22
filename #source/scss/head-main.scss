@@ -193,7 +193,7 @@ h4.slid-heading {
 
 //partners
 #partners {
-    background: url(../images/partners_bg1.jpg) no-repeat -350px 45%, url(../images/partners_bg2.jpg) no-repeat 103% 0%;
+    //background: url(../images/partners_bg1.jpg) no-repeat -350px 45%, url(../images/partners_bg2.jpg) no-repeat 103% 0%;
     min-height: 630px;
     .item-wrap {
         padding: 30px;
@@ -249,6 +249,11 @@ h4.slid-heading {
         font-weight: bold;
         font-style: italic;
     }
+}
+
+//decor
+#decor_1, #decor_2, #decor_3, #decor_4, #decor_5 {
+    display: none;
 }
 
 //news-section
