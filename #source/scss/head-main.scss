@@ -735,3 +735,33 @@ h3 {
         }
     }
 }
+
+//modal ahtung----------------------------------
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-body__text {
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.modal-body__button {
+    margin: 0 auto;
+    border: 2px solid #e31a4d;
+    cursor: pointer;
+    &:hover a,
+    &:focus a,
+    &:active a {
+        color:#FBF8F4;
+    }
+    a {
+        width: 100%;
+    }
+}
+
+
