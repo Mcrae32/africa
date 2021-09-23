@@ -770,4 +770,39 @@ h3 {
 }
 .modal-body__button a {
   width: 100%;
+}
+
+.section-filter__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-filter_brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+}
+.section-filter_brand:after {
+  background: linear-gradient(to top, rgba(83, 45, 41, 0.21) -4%, rgba(72, 76, 97, 0) 40%);
+}
+
+.mobile-filter__wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mobile-filter__item {
+  width: 25%;
+  padding: 0 15px;
+}
+@media (max-width: 548px) {
+  .mobile-filter__item {
+    width: 50%;
+  }
+}
+@media (max-width: 365px) {
+  .mobile-filter__item {
+    padding: 0 7.5px;
+  }
 }/*# sourceMappingURL=head-main.css.map */
